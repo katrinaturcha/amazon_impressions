@@ -1,0 +1,12 @@
+Pillow
+amazoncaptcha
+bs4
+datetime
+openpyxl
+pandas
+psycopg2-binary
+pytz
+selenium
+telebot
+undetected_chromedriver
+mysql-connector-python
