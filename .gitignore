@@ -1,6 +1,7 @@
 .venv
 .env
 node_modules
+__pycache__
 
 database_postgres.py
 excel.py

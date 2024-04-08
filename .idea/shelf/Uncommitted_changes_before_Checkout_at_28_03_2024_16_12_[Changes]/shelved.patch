@@ -1,0 +1,45 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c957bb8f-b23f-4837-8a8a-a039b5ef9a39\" name=\"Changes\" comment=\"changed\">\r\n      <change afterPath=\"$PROJECT_DIR$/import.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/test.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/test_chrome.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/test_mysql.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/test_pg.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/test_proxy.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/test_telegram.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2ddG8UqBcxviotWn7ek85C8urFb\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.WebDAV_ya_disk.executor\": \"Run\",\r\n    \"Python.database.executor\": \"Run\",\r\n    \"Python.database_mysql.executor\": \"Run\",\r\n    \"Python.extract_asins.executor\": \"Run\",\r\n    \"Python.import.executor\": \"Run\",\r\n    \"Python.selenium-vps.executor\": \"Run\",\r\n    \"Python.test proxy.executor\": \"Run\",\r\n    \"Python.test.executor\": \"Run\",\r\n    \"Python.test_mysql.executor\": \"Run\",\r\n    \"Python.test_pg.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/e.turchaninova/PycharmProjects/pythonProject1/extension_de\",\r\n    \"settings.editor.selected.configurable\": \"preferences.editor\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\e.turchaninova\\PycharmProjects\\pythonProject1\\extension_de\" />\r\n      <recent name=\"C:\\Users\\e.turchaninova\\PycharmProjects\\pythonProject1\\extension_fr\" />\r\n      <recent name=\"C:\\Users\\e.turchaninova\\PycharmProjects\\pythonProject1\\extension_uk\" />\r\n      <recent name=\"C:\\Users\\e.turchaninova\\PycharmProjects\\pythonProject1\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\e.turchaninova\\PycharmProjects\\pythonProject1\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c957bb8f-b23f-4837-8a8a-a039b5ef9a39\" name=\"Changes\" comment=\"\" />\r\n      <created>1710330384647</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1710330384647</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"extension_usa added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711630096845</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711630096845</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"changed\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1711630386299</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1711630386299</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"extension_usa added\" />\r\n    <MESSAGE value=\"changed\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"changed\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,16 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c957bb8f-b23f-4837-8a8a-a039b5ef9a39" name="Changes" comment="changed">
+-      <change afterPath="$PROJECT_DIR$/import.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/test_chrome.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/test_mysql.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/test_pg.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/test_proxy.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/test_telegram.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="c957bb8f-b23f-4837-8a8a-a039b5ef9a39" name="Changes" comment="changed" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -100,7 +91,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1711630386299</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="changed">
++      <option name="closed" value="true" />
++      <created>1711631180108</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1711631180108</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
