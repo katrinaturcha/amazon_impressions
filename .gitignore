@@ -1,5 +1,6 @@
 .venv
 .env
+node_modules
 
 database_postgres.py
 excel.py
