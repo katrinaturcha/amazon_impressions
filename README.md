@@ -1,4 +1,5 @@
 Amazon Scraper
+
 This project automates the task of scraping data from Amazon's website across multiple regional domains (USA, Germany, UK, France). 
 It uses Selenium WebDriver to simulate user interactions with web pages, managing elements like captchas and dynamically loaded content effectively. 
 The scraper is set to run at predefined intervals, collecting data such as ASINs (Amazon Standard Identification Numbers) related to specific keywords and handling various challenges like location settings and captcha verifications.
@@ -15,27 +16,27 @@ Configurable: Easily adjustable settings for adding more regions or altering con
 Prerequisites
 Before you run the scraper, ensure you have the following installed:
 
-Python 3.8+
-Selenium WebDriver
-Google Chrome or Chromium Browser
-ChromeDriver compatible with your browser version
-Necessary Python packages (listed in requirements.txt)
+- Python 3.8+
+- Selenium WebDriver
+- Google Chrome or Chromium Browser
+- ChromeDriver compatible with your browser version
+- Necessary Python packages (listed in requirements.txt)
 
 Setup
 Clone the Repository:
-git clone [https://github.com/katrinaturcha/amazon_impressions.git]
-cd amazon-scraper
+- git clone [https://github.com/katrinaturcha/amazon_impressions.git]
+- cd amazon_impressions
 
 Install Dependencies:
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
+- python -m venv venv
+- source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+- pip install -r requirements.txt
 
 Configuration:
 Edit the .env file with your proxy information, Telegram bot tokens, and other settings as needed.
 
-Running the Scraper:
-python scraper.py
+Running the Scraperm on server:
+python selenium-vps-server.py
 
 Usage:
 Execute the main script with configurations tailored based on the target region and other parameters set in the .env. 
