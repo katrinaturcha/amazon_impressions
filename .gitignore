@@ -1,0 +1,7 @@
+.venv
+.env
+
+database_postgres.py
+excel.py
+selenium_pc.py
+test_selenium.py

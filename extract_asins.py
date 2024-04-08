@@ -1,6 +1,4 @@
 from bs4 import BeautifulSoup
-from screenshot import fullpage_screenshot
-import os
 from WebDAV_ya_disk import screenshot
 
 def extract_asins_from_page(driver, region):
@@ -28,8 +26,6 @@ def extract_asins_from_page(driver, region):
             asin_data[asin] = [position, sponsored, link, title]
 
     return asin_data
-
-
 def new_function(driver, region, matched_asins, all_asins, asin_codes, page, date_for_excel, date_time, country,
                  keyword, asin_to_sku, for_shot, sh_dict):
     asin_data = extract_asins_from_page(driver, region)
@@ -41,15 +37,8 @@ def new_function(driver, region, matched_asins, all_asins, asin_codes, page, dat
             matched_asins.append((asin, page, position, sponsored, link))
             all_asins.append((date_for_excel, date_time, country, keyword, asin, asin_to_sku[asin], page, position,
                               sponsored, title, link))
-    # else: all_asins.append((date_for_excel, date_time, country, keyword, asin, "", page, position, sponsored, title,
-    # link))
     if screenshot_needed:
         file_name = f"{region}_{keyword}_p{page}_dt{for_shot}.png"
-        # file_path_shot = os.path.join(folder_path, file_name)
-        # file_path_yandex = os.path.join(yandex_disk_path, file_name)
-        # Создание скриншота
-        # fullpage_screenshot(driver, file_path_shot, file_path_yandex)
-
         binary = screenshot(driver)
         sh_dict[file_name] = binary
     return matched_asins, all_asins, sh_dict

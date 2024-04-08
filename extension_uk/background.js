@@ -3,26 +3,31 @@ var config = {
     rules: {
       singleProxy: {
         scheme: "http",
-        host: "193.53.169.254",
-        port: parseInt(63342)
+        host: process.env.HOST_UK,
+        port: parseInt(process.env.PORT_UK)
       },
       bypassList: ["localhost"]
     }
-  };
+};
 
-chrome.proxy.settings.set({value: config, scope: "regular"}, function() {});
+// Установка настроек прокси
+chrome.proxy.settings.set({value: config, scope: "regular"}, function() {
+    console.log('Proxy settings updated.');
+});
 
+// Функция для авторизации на прокси
 function callbackFn(details) {
     return {
         authCredentials: {
-            username: "JTEkdmXp",
-            password: "XfTXepbz"
+            username: process.env.LOGIN_PROXY,
+            password: process.env.PASS_PROXY
         }
     };
 }
 
+// Добавление слушателя для обработки требований прокси-аутентификации
 chrome.webRequest.onAuthRequired.addListener(
-        callbackFn,
-        {urls: ["<all_urls>"]},
-        ['blocking']
+    callbackFn,
+    {urls: ["<all_urls>"]},
+    ['blocking']
 );

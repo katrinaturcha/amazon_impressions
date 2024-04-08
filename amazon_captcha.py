@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 from amazoncaptcha import AmazonCaptcha
-
 def solve_amazon_captcha(driver):
     try:
         # Поиск элемента изображения капчи и извлечение его URL

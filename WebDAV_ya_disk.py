@@ -2,7 +2,9 @@ from PIL import Image
 import requests
 import time
 from io import BytesIO
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 def screenshot(driver):
     # Получение размеров окна и всей страницы
@@ -46,14 +48,12 @@ def webdav(sh_dict, region):
         folder_region = 'screenshot_fr'
 
     folder_general = 'скрины_выдача_амазон'
-    oauth_token = 'y0_AgAEA7qkabWDAAt42AAAAAD-9g9ZAAC0vfmv06FA35d6Y38yyFg3YzIdGA'
     headers = {
-        'Authorization': f'OAuth {oauth_token}',
+        'Authorization': f'OAuth {os.getenv('OAUTH_TOKEN')}',
         'Accept': '*/*',
         'Content-Type': 'image/png',
     }
     # Вызов функции для создания полностраничного скриншота
-
     for file_name, sh in sh_dict.items():
         url = f'https://webdav.yandex.ru/{folder_general}/{folder_region}/{file_name}'
         response = requests.put(url, headers=headers, data=sh)

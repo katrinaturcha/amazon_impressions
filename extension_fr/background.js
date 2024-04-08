@@ -1,28 +1,34 @@
+// Определение конфигурации прокси
 var config = {
     mode: "fixed_servers",
     rules: {
       singleProxy: {
         scheme: "http",
-        host: "194.87.36.91",
-        port: parseInt(64160)
+        host: process.env.HOST_FR,
+        port: parseInt(process.env.PORT_FR)
       },
       bypassList: ["localhost"]
     }
-  };
+};
 
-chrome.proxy.settings.set({value: config, scope: "regular"}, function() {});
+// Установка настроек прокси
+chrome.proxy.settings.set({value: config, scope: "regular"}, function() {
+    console.log('Proxy settings updated.');
+});
 
+// Функция для авторизации на прокси
 function callbackFn(details) {
     return {
         authCredentials: {
-            username: "JTEkdmXp",
-            password: "XfTXepbz"
+            username: process.env.LOGIN_PROXY,  // Использование переменной окружения
+            password: process.env.PASS_PROXY   // Использование переменной окружения
         }
     };
 }
 
+// Добавление слушателя для обработки требований прокси-аутентификации
 chrome.webRequest.onAuthRequired.addListener(
-        callbackFn,
-        {urls: ["<all_urls>"]},
-        ['blocking']
+    callbackFn,
+    {urls: ["<all_urls>"]},
+    ['blocking']
 );
