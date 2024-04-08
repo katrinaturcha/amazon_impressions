@@ -1,9 +1,4 @@
 .venv
 .env
 node_modules
-__pycache__/
-
-database_postgres.py
-excel.py
-selenium_pc.py
-test_selenium.py
+__pycache__
